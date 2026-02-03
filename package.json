@@ -4,11 +4,13 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build --webpack",
     "start": "next start",
     "lint": "eslint"
   },
   "dependencies": {
+    "@pulumi/gcp": "^9.9.0",
+    "@pulumi/pulumi": "^3.215.0",
     "next": "16.1.2",
     "react": "19.2.3",
     "react-dom": "19.2.3"
